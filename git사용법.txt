@@ -1,0 +1,15 @@
+1. github 들어가서 respiratory를 새로 만든다. respiratory의 이름은 무조건 영어 또는 숫자로!! 한글은 이름으로 인식 불가능함.
+2. 만든 respiratory의 html주소를 복사한다.
+3. cmd(명령프롬프트)를 연다.
+4. github와 연결하고 싶은 컴퓨터 내 폴더의 디렉토리로 cmd 상에서 이동한다(cd 디렉토리 경로).
+5. 이동한 디렉토리의 cmd 창에 'git clone respiratory의 html주소' 를 입력한다(git clone https://github.com/jihwanlee17/practical_NLP.git)
+6. 실제 그 디렉토리에 들어가보면 github의 respiratory 이름으로 생성된 폴더가 하나 만들어져 있을 것이다. 그 폴더 안에 
+    깃허브에 올리고 싶은 파일을 넣는다(txt, py, ipynb 등등 (ex: 20210906week1.ipynb)).
+        * 깃허브에 올리려는 파일 이름도 영어 또는 숫자로 이루어져야 함
+7. cmd에서 그 폴더 경로로 다시 이동한다 그 다음에 cmd에 git status를 입력하면 해당 파일이 빨간색 글씨로 적혀있는 것을 볼 수 있다. git add를 해줘야 파란색으로 변하고
+   그래야 다음 과정을 거칠 수 있다.
+7. 다시 cmd로 돌아온다. 이제 'git add 파일이름' 을 입력한다. (git add 20210906week1.ipynb)
+8. 'git commit -m Add 파일이름' 을 입력한다 (git commit -m Add 20210906week1.ipynb) - 그냥 'git commit -m' 만 입력해도 상관 없음
+9. 마지막으로 git push를 입력해준다. 그래야만 github에 최종적으로 업데이트가 된다.(git push 입력 안 하면 파일 깃허브에 안 올려져 있음.)
+
+끝!!!
